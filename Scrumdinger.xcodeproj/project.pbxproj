@@ -18,6 +18,7 @@
 		D70EFC332A82FB9C00CC5FE9 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70EFC322A82FB9C00CC5FE9 /* DailyScrum.swift */; };
 		D70EFC352A82FC5400CC5FE9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70EFC342A82FC5400CC5FE9 /* CardView.swift */; };
 		D70EFC372A83053900CC5FE9 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70EFC362A83053900CC5FE9 /* TrailingIconLabelStyle.swift */; };
+		D74866462A8ACAB5002A5253 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74866452A8ACAB5002A5253 /* DetailView.swift */; };
 		D74F3D412A8479BD004980BD /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74F3D402A8479BD004980BD /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		D70EFC322A82FB9C00CC5FE9 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		D70EFC342A82FC5400CC5FE9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		D70EFC362A83053900CC5FE9 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		D74866452A8ACAB5002A5253 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		D74F3D402A8479BD004980BD /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 				D70EFC342A82FC5400CC5FE9 /* CardView.swift */,
 				D70EFC362A83053900CC5FE9 /* TrailingIconLabelStyle.swift */,
 				D74F3D402A8479BD004980BD /* ScrumsView.swift */,
+				D74866452A8ACAB5002A5253 /* DetailView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D70EFC332A82FB9C00CC5FE9 /* DailyScrum.swift in Sources */,
+				D74866462A8ACAB5002A5253 /* DetailView.swift in Sources */,
 				D70EFC372A83053900CC5FE9 /* TrailingIconLabelStyle.swift in Sources */,
 				D70EFC312A82F8C700CC5FE9 /* Theme.swift in Sources */,
 				D74F3D412A8479BD004980BD /* ScrumsView.swift in Sources */,
