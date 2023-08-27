@@ -20,6 +20,7 @@
 		D70EFC372A83053900CC5FE9 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70EFC362A83053900CC5FE9 /* TrailingIconLabelStyle.swift */; };
 		D74866462A8ACAB5002A5253 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74866452A8ACAB5002A5253 /* DetailView.swift */; };
 		D74F3D412A8479BD004980BD /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74F3D402A8479BD004980BD /* ScrumsView.swift */; };
+		D766A0572A9BE42900A5F8C9 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D766A0562A9BE42900A5F8C9 /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		D70EFC362A83053900CC5FE9 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		D74866452A8ACAB5002A5253 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		D74F3D402A8479BD004980BD /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		D766A0562A9BE42900A5F8C9 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,15 +108,11 @@
 		D70EFC042A82E08700CC5FE9 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
-				D70EFC2F2A82F8B300CC5FE9 /* Models */,
+				D766A0522A9BE22700A5F8C9 /* UI */,
+				D766A0512A9BE21800A5F8C9 /* Data */,
 				D70EFC052A82E08700CC5FE9 /* ScrumdingerApp.swift */,
-				D70EFC072A82E08700CC5FE9 /* MeetingView.swift */,
 				D70EFC092A82E08900CC5FE9 /* Assets.xcassets */,
 				D70EFC0B2A82E08900CC5FE9 /* Preview Content */,
-				D70EFC342A82FC5400CC5FE9 /* CardView.swift */,
-				D70EFC362A83053900CC5FE9 /* TrailingIconLabelStyle.swift */,
-				D74F3D402A8479BD004980BD /* ScrumsView.swift */,
-				D74866452A8ACAB5002A5253 /* DetailView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -151,6 +149,51 @@
 				D70EFC322A82FB9C00CC5FE9 /* DailyScrum.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D766A0512A9BE21800A5F8C9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D70EFC2F2A82F8B300CC5FE9 /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D766A0522A9BE22700A5F8C9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D70EFC362A83053900CC5FE9 /* TrailingIconLabelStyle.swift */,
+				D766A0552A9BE2C400A5F8C9 /* DetailScreen */,
+				D766A0542A9BE28600A5F8C9 /* ScrumsScreen */,
+				D766A0532A9BE24D00A5F8C9 /* MeetingScreen */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D766A0532A9BE24D00A5F8C9 /* MeetingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D70EFC072A82E08700CC5FE9 /* MeetingView.swift */,
+			);
+			path = MeetingScreen;
+			sourceTree = "<group>";
+		};
+		D766A0542A9BE28600A5F8C9 /* ScrumsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D74F3D402A8479BD004980BD /* ScrumsView.swift */,
+				D70EFC342A82FC5400CC5FE9 /* CardView.swift */,
+			);
+			path = ScrumsScreen;
+			sourceTree = "<group>";
+		};
+		D766A0552A9BE2C400A5F8C9 /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D74866452A8ACAB5002A5253 /* DetailView.swift */,
+				D766A0562A9BE42900A5F8C9 /* DetailEditView.swift */,
+			);
+			path = DetailScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +328,7 @@
 			files = (
 				D70EFC332A82FB9C00CC5FE9 /* DailyScrum.swift in Sources */,
 				D74866462A8ACAB5002A5253 /* DetailView.swift in Sources */,
+				D766A0572A9BE42900A5F8C9 /* DetailEditView.swift in Sources */,
 				D70EFC372A83053900CC5FE9 /* TrailingIconLabelStyle.swift in Sources */,
 				D70EFC312A82F8C700CC5FE9 /* Theme.swift in Sources */,
 				D74F3D412A8479BD004980BD /* ScrumsView.swift in Sources */,
