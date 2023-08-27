@@ -21,6 +21,7 @@
 		D74866462A8ACAB5002A5253 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74866452A8ACAB5002A5253 /* DetailView.swift */; };
 		D74F3D412A8479BD004980BD /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74F3D402A8479BD004980BD /* ScrumsView.swift */; };
 		D766A0572A9BE42900A5F8C9 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D766A0562A9BE42900A5F8C9 /* DetailEditView.swift */; };
+		D766A05A2A9BFBF900A5F8C9 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D766A0592A9BFBF900A5F8C9 /* ThemeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		D74866452A8ACAB5002A5253 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		D74F3D402A8479BD004980BD /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		D766A0562A9BE42900A5F8C9 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		D766A0592A9BFBF900A5F8C9 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 		D766A0522A9BE22700A5F8C9 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				D766A0582A9BFBE700A5F8C9 /* ThemeScreen */,
 				D70EFC362A83053900CC5FE9 /* TrailingIconLabelStyle.swift */,
 				D766A0552A9BE2C400A5F8C9 /* DetailScreen */,
 				D766A0542A9BE28600A5F8C9 /* ScrumsScreen */,
@@ -194,6 +197,14 @@
 				D766A0562A9BE42900A5F8C9 /* DetailEditView.swift */,
 			);
 			path = DetailScreen;
+			sourceTree = "<group>";
+		};
+		D766A0582A9BFBE700A5F8C9 /* ThemeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D766A0592A9BFBF900A5F8C9 /* ThemeView.swift */,
+			);
+			path = ThemeScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +345,7 @@
 				D74F3D412A8479BD004980BD /* ScrumsView.swift in Sources */,
 				D70EFC082A82E08700CC5FE9 /* MeetingView.swift in Sources */,
 				D70EFC062A82E08700CC5FE9 /* ScrumdingerApp.swift in Sources */,
+				D766A05A2A9BFBF900A5F8C9 /* ThemeView.swift in Sources */,
 				D70EFC352A82FC5400CC5FE9 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

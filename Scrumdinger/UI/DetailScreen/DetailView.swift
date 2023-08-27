@@ -14,13 +14,13 @@ struct DetailView: View {
     
     var body: some View {
         List{
-            Section(header: Text("Meeting Info")){
+            Section(header: Text("Meeting Info")) {
                 NavigationLink(destination: MeetingView()) {
                     Label("Start Meeting", systemImage: "timer")
                         .font(.headline)
                         .foregroundColor(.accentColor)
                 }
-                HStack{
+                HStack {
                     Label("Length", systemImage: "clock")
                     Spacer()
                     Text("\(scrum.lengthInMinutes) minutes")
@@ -37,7 +37,7 @@ struct DetailView: View {
                 }
                 .accessibilityElement(children: .combine)
             }
-            Section(header: Text("Attendees")){
+            Section(header: Text("Attendees")) {
                 ForEach(scrum.attendees){ attendee in
                     Label(attendee.name, systemImage: "person")
                 }
@@ -53,14 +53,14 @@ struct DetailView: View {
             NavigationStack {
                 DetailEditView()
                     .navigationTitle(scrum.title)
-                    .toolbar{
+                    .toolbar {
                         ToolbarItem(placement: .cancellationAction){
-                            Button("Cancel"){
+                            Button("Cancel") {
                                 isPresentingEditView = false
                             }
                         }
                         ToolbarItem(placement: .confirmationAction){
-                            Button("Done"){
+                            Button("Done") {
                                 isPresentingEditView = false
                             }
                         }
